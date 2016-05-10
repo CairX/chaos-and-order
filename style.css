@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+    background: #002240;
+}
+.grid {
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    color: white;
+    background: #007ae7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -moz-user-select: none;
+
+    font: 3rem/1 sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
