@@ -9,12 +9,13 @@ body {
     justify-content: center;
 }
 .cell {
-    width: 100px;
-    height: 100px;
+    width: 6rem;
+    height: 6rem;
     margin: 10px;
 
-    color: white;
+    color: #002240;
     background: #007ae7;
+    border-radius: 2px;
 
     display: flex;
     justify-content: center;
@@ -22,7 +23,7 @@ body {
 
     -moz-user-select: none;
 
-    font: 3rem/1 sans-serif;
+    font: 4rem/1 sans-serif;
     font-weight: bold;
     cursor: pointer;
 }
