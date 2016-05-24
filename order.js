@@ -1,6 +1,7 @@
 (function () {
     "use strict";
 
+    var size = 6;
     var states = ["", "O", "X"];
     var grid = [];
     var gridElement = document.getElementsByClassName("grid")[0];
@@ -20,12 +21,12 @@
         });
     };
 
-    for (var y = 0; y < 5; y++) {
+    for (var y = 0; y < size; y++) {
         var row = document.createElement("div");
         row.setAttribute("class", "row");
         grid[y] = [];
 
-        for (var x = 0; x < 5; x++) {
+        for (var x = 0; x < size; x++) {
             var cell = document.createElement("div");
             cell.setAttribute("class", "cell");
             cell.addEventListener("click", cellEvent, false);
