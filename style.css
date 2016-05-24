@@ -1,17 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 body {
-    margin: 10px;
     background: #002240;
 }
-.grid {
-}
+
 .row {
     display: flex;
     justify-content: center;
 }
 .cell {
-    width: 6rem;
-    height: 6rem;
-    margin: 10px;
+    width: 14vw;
+    height: 14vw;
+    margin: 1vw;
 
     color: #002240;
     background: #007ae7;
@@ -26,7 +28,17 @@ body {
     -webkit-user-select: none;
     user-select: none;
 
-    font: 4rem/1 sans-serif;
+    font: 10vw/1 sans-serif;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media (min-width: 900px) {
+    .cell {
+        width: 130px;
+        height: 130px;
+        margin: 9px;
+
+        font-size: 90px;
+    }
 }
